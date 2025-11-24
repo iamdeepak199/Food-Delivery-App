@@ -1,39 +1,60 @@
-/* Navbar wrapper */
+/* NAVBAR MAIN */
 .navbar {
-  background: #ffffff;
+  background: #f7f6f6ef;
   padding: 12px 20px;
   border-bottom: 1px solid #e5e5e5;
   position: sticky;
   top: 0;
+  z-index: 99;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
-/* Container */
+/* FLEX CONTAINER */
 .nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/* Brand (logo + text) */
+/* BRAND (LOGO) */
 .brand {
   display: flex;
   align-items: center;
-  gap: 10px;           /* Space between logo & text */
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #333;
-  cursor: pointer;
+  gap: 10px;
   text-decoration: none;
 }
 
-/* LOGO styling */
 .logo {
-  width: 40px;         /* Adjust size */
-  height: 40px;        /* Make it uniform */
-  object-fit: contain; /* Prevent distortion */
+  width: 50px;
+  height: 60px;
+  object-fit: contain;
 }
 
-/* Search box */
+/* CENTER MENU */
+.menu-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.menu-links a {
+  text-decoration: none;
+  color: #222;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: 0.2s ease-in-out;
+}
+
+.menu-links a:hover {
+  color: #007bff;
+  transform: translateY(-2px);
+}
+
+.menu-links span {
+  font-weight: 500;
+}
+
+/* SEARCH BOX */
 .search-box {
   display: flex;
   align-items: center;
@@ -41,49 +62,89 @@
 }
 
 .search-box input {
-  padding: 8px 12px;
+  padding: 9px 12px;
   border-radius: 6px;
   border: 1px solid #ccc;
   font-size: 14px;
   outline: none;
   transition: 0.2s;
+  box-shadow: inset 0 0 3px rgba(0,0,0,0.1);
 }
 
 .search-box input:focus {
   border-color: #007bff;
-  box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
 }
 
-/* Button */
+/* SEARCH BUTTON 3D EFFECT */
 .search-box button {
-  padding: 8px 14px;
+  padding: 9px 16px;
   border: none;
   background: #007bff;
   color: white;
   border-radius: 6px;
   cursor: pointer;
   font-size: 14px;
-  transition: 0.2s;
+  transition: 0.2s ease;
+  box-shadow: 0px 3px 0px #005fcc;
 }
 
-.search-box button:hover {
-  opacity: 0.9;
-  transform: scale(1.02);
+.search-box button:active {
+  transform: translateY(2px);
+  box-shadow: 0px 1px 0px #005fcc;
 }
 
-/* Responsive */
-@media (max-width: 600px) {
+/* RESPONSIVE */
+@media (max-width: 768px) {
   .nav-container {
     flex-direction: column;
-    gap: 12px;
+    gap: 15px;
+  }
+
+  .menu-links {
+    gap: 20px;
   }
 
   .search-box {
     width: 100%;
   }
 
-  .search-box input,
-  .search-box button {
-    width: 100%;
+  .search-box input {
+    flex: 1;
   }
+}
+.cart-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.cart-icon {
+  color: lightslategray;
+}
+
+.cart-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+.brand-signature {
+  font-family: "Pacifico", cursive;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #e63946; /* stylish red */
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo {
+  width: 45px;
+  height: auto;
 }

@@ -1,0 +1,101 @@
+.product-card-3d {
+  width: 300px;
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.12);
+  transition: 0.3s ease-in-out;
+  transform: translateY(0);
+}
+
+.product-card-3d:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 20px 35px rgba(0,0,0,0.18);
+}
+
+.product-card-3d img {
+  width: 100%;
+  height: 180px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.product-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 12px;
+  color: #222;
+}
+
+.food-desc {
+  font-size: 14px;
+  color: #555;
+  margin-top: 4px;
+}
+
+/* Rating */
+.rating-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.star-icon {
+  width: 20px;
+  height: 20px;
+  fill: gold;
+}
+
+.rating-value {
+  background: #fff4c2;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Spice */
+.spice-level {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #d9534f;
+  font-weight: 600;
+}
+
+/* Footer */
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.product-price {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+}
+
+/* Add button */
+.add-btn {
+  padding: 8px 14px;
+  background: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  background: #e75a00;
+  transform: scale(1.05);
+}
+.products-container {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}

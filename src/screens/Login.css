@@ -1,0 +1,138 @@
+:root {
+  --bg: #f5f7fb;
+  --card: #ffffff;
+  --accent: #4f46e5;
+  --accent-2: #6366f1;
+  --muted: #6b7280;
+  --input-border: #e6e9ef;
+  --shadow: 0 8px 20px rgba(31,41,55,0.08);
+  --radius: 12px;
+  --gap: 14px;
+}
+
+/* Full Page */
+.login-page {
+  min-height: 100vh;
+  background: linear-gradient(180deg, rgba(99,102,241,0.06), rgba(245,247,251,0.9));
+  padding-top: 80px; /* space for Navbar */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Center Wrapper */
+.center-box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 28px;
+  border: 1px solid rgba(15,23,42,0.03);
+}
+
+/* Heading */
+.login-card h1 {
+  margin-bottom: 16px;
+  font-size: 1.3rem;
+  color: #0f172a;
+  text-transform: capitalize;
+}
+
+/* Form */
+.login-card form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+/* Label + Input */
+.login-card label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.login-card input {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--input-border);
+  font-size: 1rem;
+  transition: 0.2s;
+}
+
+.login-card input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 4px 12px rgba(99,102,241,0.15);
+}
+
+/* Button */
+.submit-btn {
+  margin-top: 8px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .login-card {
+    padding: 20px;
+  }
+}
+.btn-group {
+  display: flex;
+  justify-content: center;   /* center the buttons */
+  align-items: center;
+  gap: 15px;                  /* space between buttons */
+  margin-top: 20px;
+}
+
+.btn-group button {
+  display: flex;
+  align-items: center;
+  gap: 8px;                  /* space between text and icon */
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #4f46e5;       /* Indigo */
+  color: #fff;
+  transition: 0.25s ease;
+}
+
+.btn-group button i {
+  font-size: 18px;
+}
+
+.btn-group button:hover {
+  background: #4338ca;       /* darker indigo */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+}
+
+.btn-group button:active {
+  transform: scale(0.97);
+}

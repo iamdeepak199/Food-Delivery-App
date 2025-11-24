@@ -1,0 +1,186 @@
+[
+  {
+    "image": "/images/briyani.jpg",
+    "title": "Chicken Biryani",
+    "description": "Aromatic basmati rice cooked with tender chicken and spices.",
+    "rating": 4.8,
+    "spice": "🌶🌶 Medium Spicy",
+    "price": 249
+  },
+  {
+    "image": "/images/pizza1.jpg",
+    "title": "Cheese Pizza",
+    "description": "Loaded cheese pizza with oregano and chili flakes.",
+    "rating": 4.5,
+    "spice": "🌶 Mild",
+    "price": 199
+  },
+  {
+    "image": "/images/burger.jpg",
+    "title": "Veg Burger",
+    "description": "Crispy veggie patty with fresh lettuce and mayo.",
+    "rating": 4.2,
+    "spice": "🌶🌶 Medium",
+    "price": 129
+  },
+  {
+    "image": "/images/Noodles.png",
+    "title": "Veg Hakka Noodles",
+    "description": "Stir-fried noodles with veggies and spices.",
+    "rating": 4.3,
+    "spice": "🌶🌶 Medium",
+    "price": 159
+  },
+  {
+    "image": "/images/momospng.png",
+    "title": "Chicken Momos",
+    "description": "Steamed dumplings stuffed with spicy chicken.",
+    "rating": 4.6,
+    "spice": "🌶 Medium",
+    "price": 149
+  },
+  {
+    "image": "/images/paneer.jpg",
+    "title": "Paneer Butter Masala",
+    "description": "Creamy tomato gravy with soft paneer cubes.",
+    "rating": 4.7,
+    "spice": "🌶 Mild",
+    "price": 199
+  },
+  {
+    "image": "/images/sandwich.jpg",
+    "title": "Grilled Sandwich",
+    "description": "Loaded veggie sandwich grilled to perfection.",
+    "rating": 4.1,
+    "spice": "🌶 Low",
+    "price": 99
+  },
+  {
+    "image": "/images/pasta.jpg",
+    "title": "White Sauce Pasta",
+    "description": "Creamy white sauce pasta with herbs.",
+    "rating": 4.4,
+    "spice": "🌶 Mild",
+    "price": 179
+  },
+  {
+    "image": "/images/thali.jpg",
+    "title": "Indian Thali",
+    "description": "Complete thali with roti, rice, dal, sabzi, sweet.",
+    "rating": 4.9,
+    "spice": "🌶 Medium",
+    "price": 299
+  },
+  {
+    "image": "/images/roll.jpg",
+    "title": "Chicken Roll",
+    "description": "Soft paratha roll stuffed with spicy chicken.",
+    "rating": 4.5,
+    "spice": "🌶🌶 Medium Spicy",
+    "price": 129
+  },
+  {
+    "image": "/images/dosa.jpg",
+    "title": "Masala Dosa",
+    "description": "Crispy dosa with potato masala filling.",
+    "rating": 4.6,
+    "spice": "🌶 Mild",
+    "price": 120
+  },
+  {
+    "image": "/images/friedrice.jpg",
+    "title": "Fried Rice",
+    "description": "Veg fried rice with spices & sauces.",
+    "rating": 4.3,
+    "spice": "🌶 Medium",
+    "price": 139
+  },
+  {
+    "image": "/images/chole.jpg",
+    "title": "Chole Bhature",
+    "description": "Hot bhature served with spicy chole.",
+    "rating": 4.7,
+    "spice": "🌶🌶 Spicy",
+    "price": 159
+  },
+  {
+    "image": "/images/idli.jpg",
+    "title": "South Indian Idli",
+    "description": "Soft idlis with sambhar and coconut chutney.",
+    "rating": 4.5,
+    "spice": "🌶 Mild",
+    "price": 89
+  },
+  {
+    "image": "/images/kabab.jpg",
+    "title": "Chicken Kabab",
+    "description": "Juicy grilled kababs with green chutney.",
+    "rating": 4.8,
+    "spice": "🌶🌶 Medium Spicy",
+    "price": 189
+  },
+  {
+    "image": "/images/poha.jpg",
+    "title": "Poha",
+    "description": "Light & healthy poha with lemon and peanuts.",
+    "rating": 4.2,
+    "spice": "🌶 Low",
+    "price": 70
+  },
+  {
+    "image": "/images/cake.jpg",
+    "title": "Chocolate Cake",
+    "description": "Soft chocolate cake with creamy icing.",
+    "rating": 4.9,
+    "spice": "🍰 Sweet",
+    "price": 299
+  },
+  {
+    "image": "/images/shawarma.jpg",
+    "title": "Chicken Shawarma",
+    "description": "Lebanese-style chicken wrap with garlic sauce.",
+    "rating": 4.7,
+    "spice": "🌶 Medium",
+    "price": 149
+  },
+  {
+    "image": "/images/pavbhaji.jpg",
+    "title": "Pav Bhaji",
+    "description": "Mumbai-style pav bhaji loaded with butter.",
+    "rating": 4.6,
+    "spice": "🌶🌶 Medium Spicy",
+    "price": 99
+  },
+  {
+    "image": "/images/rajma.jpg",
+    "title": "Rajma Chawal",
+    "description": "Punjabi rajma curry served with steamed rice.",
+    "rating": 4.4,
+    "spice": "🌶 Medium",
+    "price": 129
+  },
+  {
+    "image": "/images/kheer.jpg",
+    "title": "Kheer",
+    "description": "Traditional Indian rice pudding with dry fruits.",
+    "rating": 4.8,
+    "spice": "🍨 Sweet",
+    "price": 110
+  },
+  {
+    "image": "/images/puri.jpg",
+    "title": "Puri Sabzi",
+    "description": "Hot puris served with potato sabzi.",
+    "rating": 4.3,
+    "spice": "🌶 Mild",
+    "price": 89
+  },
+  {
+    "image": "/images/maggi.jpg",
+    "title": "Masala Maggi",
+    "description": "Spicy masala Maggi with vegetables.",
+    "rating": 4.5,
+    "spice": "🌶🌶 Medium Spicy",
+    "price": 79
+  }
+]
