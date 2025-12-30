@@ -1,70 +1,158 @@
-# Getting Started with Create React App
+# 🍔 Food Delivery App — MERN Stack 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
+![Node](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)
+![Express](https://img.shields.io/badge/Framework-Express-black?logo=express)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-darkgreen?logo=mongodb)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-## Available Scripts
+A **full-stack MERN Food Delivery Application** built for real-world use, featuring **secure authentication (Login & Register)**, modern UI, REST APIs, and MongoDB database integration.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌟 Highlights
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✨ Built with **MERN Stack**  
+🔐 Secure User Authentication (Login / Register)  
+📱 Responsive & Modern UI  
+⚡ RESTful API Architecture  
+🗄️ MongoDB Database  
+🚀 Portfolio-ready project  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack (MERN)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ⚛️ Frontend
+- React
+- HTML5, CSS3, JavaScript
+- Responsive UI
 
-### `npm run build`
+### 🟢 Backend
+- Node.js
+- Express.js
+- REST APIs
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🍃 Database
+- MongoDB
+- Mongoose
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔐 Authentication Flow
 
-### `npm run eject`
+- 📝 User Registration
+- 🔑 User Login
+- 🔒 Encrypted Passwords
+- 🧠 Session / JWT based flow
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📸 UI Preview
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🏠 Home Page
+<img src="screenshots/home.png" alt="Home Page" width="850"/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🔑 Login Page
+<img src="screenshots/login.png" alt="Login Page" width="850"/>
 
-## Learn More
+### 📝 Register Page
+<img src="screenshots/register.png" alt="Register Page" width="850"/>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📌 *Add images inside a `screenshots/` folder*
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🎥 Demo Video
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<video width="850" controls>
+  <source src="demo/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-### Analyzing the Bundle Size
+📌 *Add demo video inside a `demo/` folder*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## ⚙️ Installation & Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/iamdeepak199/Food-Delivery-App.git
+cd Food-Delivery-App
+2️⃣ Backend Setup
+bash
+Copy code
+npm install
+npm start
+3️⃣ Frontend Setup
+bash
+Copy code
+cd client
+npm install
+npm start
+4️⃣ Environment Variables
+Create a .env file in root directory:
 
-### Advanced Configuration
+env
+Copy code
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+🌐 Application URLs
+Frontend → http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Backend → http://localhost:5000
 
-### Deployment
+📁 Project Structure
+bash
+Copy code
+Food-Delivery-App/
+│
+├── client/        # React Frontend
+├── server/        # Node & Express Backend
+├── models/        # MongoDB Models
+├── routes/        # API Routes
+├── screenshots/   # UI Screenshots
+├── demo/          # Demo Video
+└── README.md
+🚀 Future Enhancements
+🛒 Cart & Checkout
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+💳 Payment Gateway
 
-### `npm run build` fails to minify
+📦 Order Tracking
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👨‍💼 Admin Dashboard
+
+⭐ Ratings & Reviews
+
+🤝 Contributing
+Contributions are welcome!
+Fork the repo and submit a pull request.
+
+📄 License
+This project is licensed under the MIT License.
+
+👤 Author
+Deepak Bhardwaj
+🔗 GitHub: https://github.com/iamdeepak199
+
+⭐ If you like this project, don’t forget to star the repository!
+
+yaml
+Copy code
+
+---
+
+# 🔹 SHORT VERSION (For Resume / Quick View)
+
+```md
+# Food Delivery App (MERN Stack)
+
+A full-stack **MERN Food Delivery Application** with **React frontend**, **Node & Express backend**, **MongoDB database**, and **secure Login & Registration system**.
+
+**Tech:** React | Node.js | Express | MongoDB  
+**Features:** Auth, REST APIs, Responsive UI  
+
+🔗 GitHub: https://github.com/iamdeepak199/Food-Delivery-App
