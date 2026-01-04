@@ -65,14 +65,9 @@ A **full-stack MERN Food Delivery Application** built for real-world use, featur
 
 ## 🎥 Demo Video
 
-<video width="850" controls>
-  <source src="Screen-Recording.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Food Delivery App Demo](home.png)](demo/Screen-Recording.mp4)
 
-📌 *Add demo video inside a `demo/` folder*
-
----
+▶️ Click to watch full demo
 
 ## ⚙️ Installation & Setup
 
