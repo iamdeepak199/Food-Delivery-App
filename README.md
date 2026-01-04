@@ -52,22 +52,21 @@ A **full-stack MERN Food Delivery Application** built for real-world use, featur
 ## 📸 UI Preview
 
 ### 🏠 Home Page
-<img src="screenshots/home.png" alt="Home Page" width="850"/>
+<img src="home.png" alt="Home Page" width="850"/>
 
 ### 🔑 Login Page
-<img src="screenshots/login.png" alt="Login Page" width="850"/>
+<img src="login.png" alt="Login Page" width="850"/>
 
 ### 📝 Register Page
-<img src="screenshots/register.png" alt="Register Page" width="850"/>
+<img src="register.png" alt="Register Page" width="850"/>
 
-📌 *Add images inside a `screenshots/` folder*
-
----
+### 🗄️ Data Base (MongoDB)
+<img src="database.png" alt="Register Page" width="850"/>
 
 ## 🎥 Demo Video
 
 <video width="850" controls>
-  <source src="demo/demo.mp4" type="video/mp4">
+  <source src="Screen-Recording.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
