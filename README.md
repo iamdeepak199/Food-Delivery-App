@@ -9,8 +9,6 @@
 
 A **full-stack MERN Food Delivery Application** built for real-world use, featuring **secure authentication (Login & Register)**, modern UI, REST APIs, and MongoDB database integration.
 
----
-
 ## 🌟 Highlights
 
 ✨ Built with **MERN Stack**  
@@ -19,8 +17,6 @@ A **full-stack MERN Food Delivery Application** built for real-world use, featur
 ⚡ RESTful API Architecture  
 🗄️ MongoDB Database  
 🚀 Portfolio-ready project  
-
----
 
 ## 🛠️ Tech Stack (MERN)
 
@@ -38,16 +34,12 @@ A **full-stack MERN Food Delivery Application** built for real-world use, featur
 - MongoDB
 - Mongoose
 
----
-
 ## 🔐 Authentication Flow
 
 - 📝 User Registration
 - 🔑 User Login
 - 🔒 Encrypted Passwords
 - 🧠 Session / JWT based flow
-
----
 
 ## 📸 UI Preview
 
@@ -72,6 +64,7 @@ A **full-stack MERN Food Delivery Application** built for real-world use, featur
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/iamdeepak199/Food-Delivery-App.git
 cd Food-Delivery-App
@@ -110,6 +103,7 @@ Food-Delivery-App/
 ├── screenshots/   # UI Screenshots
 ├── demo/          # Demo Video
 └── README.md
+
 🚀 Future Enhancements
 🛒 Cart & Checkout
 
@@ -122,6 +116,7 @@ Food-Delivery-App/
 ⭐ Ratings & Reviews
 
 🤝 Contributing
+
 Contributions are welcome!
 Fork the repo and submit a pull request.
 
@@ -136,8 +131,6 @@ Deepak Bhardwaj
 
 yaml
 Copy code
-
----
 
 # 🔹 SHORT VERSION (For Resume / Quick View)
 
